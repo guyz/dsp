@@ -1,0 +1,11 @@
+OMAP3 (BeagleBoard) DSP hardware accelerated video decoding library.
+
+Features:
+
+- Supports BeagleBoard OMAP3 processors.
+- Based on Codec Engine 3.
+- Contains H.264 and MPEG4 implementations. Could easily be extended to other modules.
+
+Notes:
+- Code is an extension to the great OMAPFBPLAY code, which is designed for OMAP4 - http://git.mansr.com/?p=omapfbplay.
+- Some dependencies may refer to OMAPFBPLAY, but were lost since I originally wrote this module.
